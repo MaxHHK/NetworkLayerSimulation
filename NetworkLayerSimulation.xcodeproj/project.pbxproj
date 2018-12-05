@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		506CD1AF21B7DA4E00438F79 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506CD1AE21B7DA4E00438F79 /* main.cpp */; };
+		506CD1B821B7DAF400438F79 /* processIP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506CD1B621B7DAF400438F79 /* processIP.cpp */; };
+		506CD1BB21B7DB3500438F79 /* processTCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506CD1B921B7DB3500438F79 /* processTCP.cpp */; };
+		506CD1BE21B7DB9300438F79 /* processMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506CD1BC21B7DB9300438F79 /* processMac.cpp */; };
+		506CD1C121B7DC6D00438F79 /* UserInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506CD1BF21B7DC6D00438F79 /* UserInterface.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		506CD1AB21B7DA4E00438F79 /* NetworkLayerSimulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NetworkLayerSimulation; sourceTree = BUILT_PRODUCTS_DIR; };
 		506CD1AE21B7DA4E00438F79 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		506CD1B521B7DAB500438F79 /* cnformat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cnformat.h; sourceTree = "<group>"; };
+		506CD1B621B7DAF400438F79 /* processIP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processIP.cpp; sourceTree = "<group>"; };
+		506CD1B721B7DAF400438F79 /* processIP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = processIP.hpp; sourceTree = "<group>"; };
+		506CD1B921B7DB3500438F79 /* processTCP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processTCP.cpp; sourceTree = "<group>"; };
+		506CD1BA21B7DB3500438F79 /* processTCP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = processTCP.hpp; sourceTree = "<group>"; };
+		506CD1BC21B7DB9300438F79 /* processMac.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = processMac.cpp; sourceTree = "<group>"; };
+		506CD1BD21B7DB9300438F79 /* processMac.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = processMac.hpp; sourceTree = "<group>"; };
+		506CD1BF21B7DC6D00438F79 /* UserInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UserInterface.cpp; sourceTree = "<group>"; };
+		506CD1C021B7DC6D00438F79 /* UserInterface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UserInterface.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				506CD1AE21B7DA4E00438F79 /* main.cpp */,
+				506CD1B521B7DAB500438F79 /* cnformat.h */,
+				506CD1BF21B7DC6D00438F79 /* UserInterface.cpp */,
+				506CD1C021B7DC6D00438F79 /* UserInterface.hpp */,
+				506CD1B921B7DB3500438F79 /* processTCP.cpp */,
+				506CD1BA21B7DB3500438F79 /* processTCP.hpp */,
+				506CD1BC21B7DB9300438F79 /* processMac.cpp */,
+				506CD1BD21B7DB9300438F79 /* processMac.hpp */,
+				506CD1B621B7DAF400438F79 /* processIP.cpp */,
+				506CD1B721B7DAF400438F79 /* processIP.hpp */,
 			);
 			path = NetworkLayerSimulation;
 			sourceTree = "<group>";
@@ -118,7 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506CD1B821B7DAF400438F79 /* processIP.cpp in Sources */,
+				506CD1C121B7DC6D00438F79 /* UserInterface.cpp in Sources */,
 				506CD1AF21B7DA4E00438F79 /* main.cpp in Sources */,
+				506CD1BB21B7DB3500438F79 /* processTCP.cpp in Sources */,
+				506CD1BE21B7DB9300438F79 /* processMac.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

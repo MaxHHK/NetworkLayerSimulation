@@ -8,8 +8,11 @@
 
 #include <iostream>
 
+#include "cnformat.h"
+#include "UserInterface.hpp"
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+//    Interface inter;
+//    inter.moveToCommand();
     return 0;
 }
